@@ -234,8 +234,8 @@ beta_homing_direction                        home_to_max      #
 beta_min                                     0                #
 beta_max                                     865              #
 #gamma_min_endstop                            1.25^            #
-#gamma_max_endstop                            1.24!^            #
-#gamma_homing_direction                       home_to_min      #
+gamma_max_endstop                            1.24!^            #
+gamma_homing_direction                       home_to_min      #
 gamma_min                                    0                #
 gamma_max                                    200              #
 
@@ -251,7 +251,7 @@ homing_order                                 XY              # x axis followed b
 # optional enable limit switches, actions will stop if any enabled limit switch is triggered
 alpha_limit_enable                          true # set to true to enable X min and max limit switches
 beta_limit_enable                           true            # set t true to enable Y min and max limit switches
-#gamma_limit_enable                          true            # set to true to enable Z min and max limit switches
+gamma_limit_enable                          true            # set to true to enable Z min and max limit switches
 
 alpha_fast_homing_rate_mm_s                  100               # feedrates in mm/second
 beta_fast_homing_rate_mm_s                   100               # "
